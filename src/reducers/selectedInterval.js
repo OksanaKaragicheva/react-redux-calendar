@@ -40,8 +40,6 @@ export const initialState = {
  const selectInterval = (state = initialState, action) => {
    switch (action.type){
      case CHOOSE_ONE_CELL: return state;
-
-
      case CHOOSE_SEVERAL_CELLS: return state;
      case ALL_DAY: return state;
      case SAVE_CHANGES: return state;
